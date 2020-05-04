@@ -19,7 +19,10 @@ public class CameralievitazioneApplication {
 	
 	@GetMapping
 	public String hi() {
-		LOGGER.debug("dentro");
+		LOGGER.debug("debug dentro");
+		LOGGER.error("error dentro");
+		LOGGER.info("info dentro");
+		LOGGER.trace("trace dentro");
 		return "HI2";
 	}
 
