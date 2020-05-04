@@ -15,7 +15,7 @@ public class CameralievitazioneApplication {
 	
 	@GetMapping
 	public String hi() {
-		return "HI";
+		return "HI2";
 	}
 
 }
